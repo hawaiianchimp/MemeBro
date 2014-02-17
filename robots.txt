@@ -1,0 +1,11 @@
+User-agent: *
+Crawl-Delay: 20
+Disallow: /admin
+Disallow: /css
+Disallow: /images
+Disallow: /includes
+Disallow: /js
+Disallow: /pages
+Disallow: /inc
+
+
