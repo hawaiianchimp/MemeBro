@@ -1,9 +1,11 @@
 <?php
 
-define(DATABASE_SERVER, 'localhost');
-define(DATABASE_USER, 'seantbur_memebro');
-define(DATABASE_PASSWORD, 'alphaphi342');
-define(DATABASE_DB, 'seantbur_memebro');
+$url=parse_url(getenv("CLEARDB_DATABASE_URL"));
+
+define(DATABASE_SERVER, $url["host"]);
+define(DATABASE_USER, $url["user"]);
+define(DATABASE_PASSWORD, $url["pass"]);
+define(DATABASE_DB, substr($url["path"],1));
 
 define(MOGREET_CLIENT_ID, '1080');
 define(MOGREET_TOKEN, '3e6b849ff067193e2f03ba09fe31b158');

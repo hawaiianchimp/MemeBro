@@ -4,7 +4,7 @@ require_once 'inc/memebro.class.php';
 require_once 'inc/gvmax.class.php';
 require_once 'inc/memegenerator.class.php';
 require_once 'inc/yourls.class.php';
-require_once 'inc/db.class.php';
+require_once 'inc/DB.class.php';
 require_once 'inc/mogreet.class.php';
 require_once 'inc/constants.php';
 
