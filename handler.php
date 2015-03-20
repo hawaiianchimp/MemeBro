@@ -1,4 +1,5 @@
 <?php
+error_reporting(-1);
 
 require_once 'inc/memebro.class.php';
 require_once 'inc/gvmax.class.php';
